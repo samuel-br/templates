@@ -4,6 +4,6 @@ output "url" {
 output "masageeeeeeeeeeeeeeeeeee" {
   value = "aaaaaaasdfdsdadsfgffddwfdgfhgfsdasdsfdgfhgjkjyutyrterwdeasdsfdgfhtjyku  trtgerfegrethrytuyi  tjyrthdrt"
 }
-output "url" {
+output "urllllll" {
   value = aws_s3_bucket.website_bucket.website_endpoint
 }
