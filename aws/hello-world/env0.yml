@@ -4,7 +4,7 @@ deploy:
     terraformPlan:
       before:
         - name: Shmuliktest
-          use: https://github.com/samuel-br/plugintest
+          use: https://github.com/samuel-br/plugintestt
           
             
             
