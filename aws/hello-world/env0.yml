@@ -5,8 +5,7 @@ deploy:
       before:
         - name: Shmuliktest
           use: https://github.com/samuel-br/plugintest
-          inputs:
-            flags: world
+         
             
             
             
