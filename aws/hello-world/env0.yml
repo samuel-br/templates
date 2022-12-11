@@ -7,4 +7,5 @@ deploy:
           use: https://github.com/samuel-br/plugintest
           inputs:
             flags: world
+            mashi: mashu
             
