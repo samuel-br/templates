@@ -1,10 +1,10 @@
 version: 2
 deploy:
   steps:
-   terraformPlan:
-     after:
-       - name: Shmuliktest
-         use: https://github.com/samuel-br/plugintest
-         input:
-           file: hello
-           flags: world
+    terraformPlan:
+      after:
+        - name: Shmuliktest
+          use: https://github.com/samuel-br/plugintest
+          input:
+            file: hello
+            flags: world
