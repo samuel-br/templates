@@ -6,7 +6,7 @@ deploy:
         - name: Shmuliktest
           use: https://github.com/samuel-br/plugintest
           inputs:
-            flags: 
-            file: world
+            flags: hello
+            
             
             
