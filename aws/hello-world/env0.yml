@@ -8,3 +8,4 @@ deploy:
           input:
             file: hello
             flags: world
+ 
