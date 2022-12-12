@@ -7,7 +7,7 @@ deploy:
           use: https://github.com/samuel-br/plugintest
           inputs:
             path: hello
-            flag: world
+            
           
             
             
