@@ -3,7 +3,7 @@ deploy:
   steps:
     terraformPlan:
       before:
-        - use: https://github.com/GiliFaroEnv0/test-plugin.git@v1.1.1
+        - use: https://github.com/samuel-br/plugintest
           name: test-plugin
             
           
