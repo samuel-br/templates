@@ -5,6 +5,7 @@ deploy:
       before:
         - use: https://github.com/samuel-br/plugintest
           name: test-plugin
+          inputs:
             
           
             
