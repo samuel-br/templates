@@ -3,10 +3,8 @@ deploy:
   steps:
     terraformPlan:
       before:
-        - name: Shmuliktest
-          use: https://github.com/samuel-br/plugintest
-          inputs:
-            path: hello
+        - use: https://github.com/GiliFaroEnv0/test-plugin.git@v1.1.1
+         name: test-plugin
             
           
             
