@@ -6,6 +6,7 @@ deploy:
         - use: https://github.com/samuel-br/plugintest
           name: test-plugin
           inputs:
+            flag: hello
             
           
             
