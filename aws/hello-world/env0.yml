@@ -4,7 +4,7 @@ deploy:
     terraformPlan:
       before:
         - use: https://github.com/GiliFaroEnv0/test-plugin.git@v1.1.1
-        name: test-plugin
+          name: test-plugin
             
           
             
