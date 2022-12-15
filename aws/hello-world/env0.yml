@@ -3,10 +3,10 @@ deploy:
   steps:
     terraformPlan:
       before:
-        - use: https://github.com/samuel-br/plugintest
+        - use: https://github.com/env0/env0-checkov-plugin
           name: test-plugin
           inputs:
-            flag: hello
+            directory: hello
             
           
             
